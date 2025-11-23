@@ -1,0 +1,23 @@
+# n8n environment variables
+.env
+.env.*
+*.env
+
+# n8n credentials
+.credentials
+.credentials.json
+*.credentials
+
+# n8n encryption key
+encryption_key
+
+# n8n docker files containing secrets
+docker-compose.yml
+docker.env
+
+# System / OS files
+.DS_Store
+Thumb.db
+
+# Node modules
+node_modules/
